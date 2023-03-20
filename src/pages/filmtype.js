@@ -84,7 +84,22 @@ function filmtype() {
       <div className="imagebg">
         <h1>Under Construction</h1>
 
-        <div className="box">
+        <div className="box-container">
+          <div className="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
+            officia?
+          </div>
+          <div className="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
+            officia?
+          </div>
+          <div className="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
+            officia?
+          </div>
+        </div>
+
+        <div className="box box-kati">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
           officia?
         </div>
