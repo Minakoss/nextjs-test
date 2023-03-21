@@ -82,12 +82,9 @@ function filmtype() {
         </div>
       </nav>
       <div className="imagebg">
-        <h1>Under Construction</h1>
+        <div className="box">Under Constraction</div>
 
-        <div className="box">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum,
-          officia?
-        </div>
+        <div className="box">Under Constraction</div>
       </div>
 
       <footer>

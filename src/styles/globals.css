@@ -57,7 +57,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-style: groove;
   font-family: "Comic Neue", cursive;
 }
 .btn {
