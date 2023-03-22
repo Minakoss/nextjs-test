@@ -82,7 +82,13 @@ function filmAM() {
         </div>
       </nav>
       <div className="imagebg">
-        <h1>Under Construction</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col align-self-start">One of three columns</div>
+            <div class="col align-self-center">One of three columns</div>
+            <div class="col align-self-end">One of three columns</div>
+          </div>
+        </div>
       </div>
 
       <footer>
@@ -90,6 +96,11 @@ function filmAM() {
           <h6> &copy;Minakos</h6>
 
           <a href="mailto:hege@example.com">hege@example.com</a>
+          <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
         </div>
       </footer>
     </>
