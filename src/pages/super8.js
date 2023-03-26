@@ -84,7 +84,7 @@ function super8() {
       <div className="imagebg">
         <div class="container">
           <div class="row">
-            <div class="col align-self-start">
+            <div class="col-12 col-md-6 col-xl-4 align-self-start animate__animated animate__bounce animate__slideInLeft">
               <div className="box1">
                 <h2>Super 8 Film</h2>
                 Super 8 mm film is a motion-picture film format released in 1965
@@ -103,7 +103,7 @@ function super8() {
                 Kodak system.
               </div>
             </div>
-            <div class="col align-self-center">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown animate__delay-1s">
               <div className="box2">
                 <h2>35mm Film</h2>
                 The most popular type of film. Also known as 135. These films
@@ -117,7 +117,7 @@ function super8() {
                 you can have more photos in a roll.
               </div>
             </div>
-            <div class="col align-self-end">
+            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInRight ">
               <div className="box3">
                 <h2>120mm Film</h2>
                 The second most popular film, also known as the medium format.

@@ -88,8 +88,12 @@ export default function Home() {
         </div>
       </nav>
       <div className="imagebg">
-        <h1>Welcome to analogue world</h1>
-        <p>Analogue Grain Moments</p>
+        <h1 className="animate__animated animate__bounce animate__slideInUp">
+          Welcome to analogue world
+        </h1>
+        <p className="animate__animated animate__bounce animate__slideInDown animate__delay-1s ">
+          Analogue Grain Moments
+        </p>
       </div>
 
       <footer>

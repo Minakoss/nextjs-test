@@ -84,7 +84,7 @@ function filmcolor() {
       <div className="imagebg">
         <div class="container">
           <div class="row">
-            <div class="col align-self-end">
+            <div class="col-12 col-md-6 col-xl-4 align-self-start animate__animated animate__bounce animate__slideInLeft animate__delay-1s ">
               <div className="box3">
                 <h2>hello</h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -99,7 +99,7 @@ function filmcolor() {
                 Lorem Ipsum.
               </div>
             </div>
-            <div class="col align-self-center">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown">
               <div className="box2">
                 <h2>hello</h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -114,7 +114,7 @@ function filmcolor() {
                 Lorem Ipsum.
               </div>
             </div>
-            <div class="col align-self-start">
+            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInUp">
               <div className="box1">
                 <h2>hello</h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
