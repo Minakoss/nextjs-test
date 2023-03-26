@@ -178,7 +178,7 @@ footer {
 }
 .box1 {
   box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
   margin-bottom: 20%;
@@ -186,7 +186,7 @@ footer {
 }
 .box2 {
   box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
 
@@ -194,13 +194,16 @@ footer {
 }
 .box3 {
   box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
   margin-top: 30%;
   padding: 10%;
 }
 
+.formcontact {
+  display: flex;
+}
 /*.image-section {
   background: linear-gradient(
       to right,

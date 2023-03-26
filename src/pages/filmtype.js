@@ -52,7 +52,7 @@ function filmtype() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/filmAM">
+                    <a class="dropdown-item" href="/super8">
                       Super 8
                     </a>
                   </li>

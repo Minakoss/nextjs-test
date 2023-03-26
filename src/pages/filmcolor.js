@@ -52,7 +52,7 @@ function filmcolor() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/filmAM">
+                    <a class="dropdown-item" href="/super8">
                       Super 8
                     </a>
                   </li>
@@ -84,7 +84,7 @@ function filmcolor() {
       <div className="imagebg">
         <div class="container">
           <div class="row">
-            <div class="col align-self-start">
+            <div class="col align-self-end">
               <div className="box3">
                 <h2>hello</h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -114,7 +114,7 @@ function filmcolor() {
                 Lorem Ipsum.
               </div>
             </div>
-            <div class="col align-self-end">
+            <div class="col align-self-start">
               <div className="box1">
                 <h2>hello</h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
