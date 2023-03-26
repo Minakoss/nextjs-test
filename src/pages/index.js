@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className="imagebg">
+      <div className="imagebghome">
         <h1 className="animate__animated animate__bounce animate__slideInUp">
           Welcome to analogue world
         </h1>

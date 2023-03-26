@@ -51,6 +51,28 @@ body {
   opacity: 5;
   background-size: cover;
   width: 100%;
+  /*height: 80vh;*/
+  color: #111723;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comic Neue", cursive;
+}
+.imagebghome {
+  background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("/denise-jans-tV80374iytg-unsplash.jpg");
+  background-position-y: 40%;
+  opacity: 5;
+  background-size: cover;
+  width: 100%;
   height: 80vh;
   color: #111723;
   display: flex;
@@ -59,7 +81,11 @@ body {
   align-items: center;
   font-family: "Comic Neue", cursive;
 }
-
+@media (min-width: 1200px) {
+  .imagebg {
+    height: 80vh;
+  }
+}
 .btn {
   color: #dad8da;
   font-family: "Comic Neue", cursive;
