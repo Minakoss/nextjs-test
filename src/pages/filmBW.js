@@ -1,6 +1,6 @@
 import React from "react";
 
-function filmAM() {
+function filmBW() {
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -47,8 +47,8 @@ function filmAM() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/filmAM">
-                      Film A/M
+                    <a class="dropdown-item" href="/filmBW">
+                      Film B&W
                     </a>
                   </li>
                   <li>
@@ -160,4 +160,4 @@ function filmAM() {
   );
 }
 
-export default filmAM;
+export default filmBW;

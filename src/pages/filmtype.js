@@ -48,8 +48,8 @@ function filmtype() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/filmAM">
-                      Film A/M
+                    <a class="dropdown-item" href="/filmBW">
+                      Film B&W
                     </a>
                   </li>
                   <li>

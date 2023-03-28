@@ -47,8 +47,8 @@ function Gallery() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/filmAM">
-                      Film A/M
+                    <a class="dropdown-item" href="/filmBW">
+                      Film B&W
                     </a>
                   </li>
                   <li>
@@ -91,19 +91,20 @@ function Gallery() {
           <div class="row">
             <div class="col-12 col-md-6 col-xl-4 align-self-start animate__animated animate__bounce animate__slideInDown">
               <div className="boximg1">
-                <h2>Super 8 Film</h2>
+                <h2 className="size">Super8 Film</h2>
                 <img src="./auke-bakker.jpg" alt="" />
               </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp ">
               <div className="boximg2">
-                <h2>Color Film</h2>
+                <h2 className="size">Color Film</h2>
                 <img src="./75350004.jpg" alt="" />
               </div>
             </div>
             <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInRight animate__delay-1s">
               <div className="boximg3">
-                <h2>B&W film</h2>
+                <h2 className="size">B&W film</h2>
+
                 <img src="./IMG_8303.jpg" alt="" />
               </div>
             </div>

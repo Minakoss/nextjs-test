@@ -238,7 +238,7 @@ footer {
   border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
-
+  display: flex;
   padding: 5%;
 }
 .boximg2 {
@@ -246,16 +246,16 @@ footer {
   border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
-
-  padding: 10%;
+  display: flex;
+  padding: 5%;
 }
 .boximg3 {
   box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
   border-radius: 50px;
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
-
-  padding: 10%;
+  display: flex;
+  padding: 5%;
 }
 img {
   border: 1px solid #ddd;
@@ -263,6 +263,10 @@ img {
   padding: 5px;
   width: 200px;
   display: flex;
+}
+.size {
+  margin-top: 40px;
+  margin-right: 10px;
 }
 /*.image-section {
   background: linear-gradient(
