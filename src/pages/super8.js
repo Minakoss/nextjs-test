@@ -52,8 +52,13 @@ function super8() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/portrait">
+                    <a class="dropdown-item" href="/super8">
                       Super 8
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Gallery">
+                      Gallery
                     </a>
                   </li>
                   <li>

@@ -57,6 +57,11 @@ function filmcolor() {
                     </a>
                   </li>
                   <li>
+                    <a class="dropdown-item" href="/Gallery">
+                      Gallery
+                    </a>
+                  </li>
+                  <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>

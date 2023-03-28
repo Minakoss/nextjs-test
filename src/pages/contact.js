@@ -57,6 +57,11 @@ function contact() {
                     </a>
                   </li>
                   <li>
+                    <a class="dropdown-item" href="/Gallery">
+                      Gallery
+                    </a>
+                  </li>
+                  <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
@@ -81,7 +86,7 @@ function contact() {
           </div>
         </div>
       </nav>
-      <div className="imagebg">
+      <div className="imagebghome">
         <h1>Under Construction</h1>
         <div className="form">
           <form>
