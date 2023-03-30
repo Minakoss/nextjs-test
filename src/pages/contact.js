@@ -195,10 +195,10 @@ function contact() {
                 </section>
               </div>
             </div>
-            <div class="col-sm-4 animate__animated animate__bounce animate__slideInRight animate__delay-2s ">
-              <h2>Help us </h2>
-              <p>
-                <strong>
+            <div class="col-12 col-md-6 col-xl-4 animate__animated animate__bounce animate__slideInRight animate__delay-2s ">
+              <div className="box1">
+                <h2>Help us </h2>
+                <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
@@ -209,18 +209,21 @@ function contact() {
                   the release of Letraset sheets containing Lorem Ipsum
                   passages, and more recently with desktop publishing software
                   like Aldus PageMaker including versions of Lorem Ipsum.
-                </strong>
-              </p>
-              <form>
-                <div class="form-group">
-                  <label for="exampleFormControlFile1"></label>
-                  <input
-                    type="file"
-                    class="form-control-file"
-                    id="exampleFormControlFile1"
-                  />
-                </div>
-              </form>
+                </p>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1"></label>
+                    <input
+                      type="file"
+                      class="form-control-file"
+                      id="exampleFormControlFile1"
+                    />
+                  </div>
+                  <button class="btn btn-outline-success" type="submit">
+                    Send
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
