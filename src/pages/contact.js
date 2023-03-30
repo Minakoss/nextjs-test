@@ -87,39 +87,142 @@ function contact() {
         </div>
       </nav>
       <div className="imagebghome">
-        <h1>Under Construction</h1>
-        <div className="form">
-          <form>
-            <div className="formcontact">
-              <label for="">Username : </label>
-              <input
-                type="text"
-                placeholder="Username/email"
-                aria-label="Username"
-              />
-            </div>
-            <div>
-              <label for="">Password : </label>
-              <input
-                type="password"
-                placeholder="Password"
-                aria-label="Password"
-              />
-            </div>
-            <div className="position_button">
-              <div className="button">
-                <button type="submit" class="btn btn-light">
-                  Register
-                </button>
-              </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-8">
+              <div className="form">
+                <section class="mb-4">
+                  <h2 class="h1-responsive font-weight-bold text-center my-4">
+                    Contact us
+                  </h2>
 
-              <div className="button">
-                <button type="submit" class="btn btn-light">
-                  Signin
-                </button>
+                  <p class="text-center w-responsive mx-auto mb-5">
+                    Do you have any questions? <br />
+                    Please do not hesitate to contact us directly.
+                  </p>
+
+                  <div class="row">
+                    <div className="form1">
+                      <div class="col-md-9 mb-md-0 mb-5">
+                        <form
+                          id="contact-form"
+                          name="contact-form"
+                          action="mail.php"
+                          method="POST"
+                        >
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <input
+                                  placeholder="name"
+                                  type="text"
+                                  id="name"
+                                  name="name"
+                                  class="form-control"
+                                />
+                                <label for="name" class="">
+                                  Your name
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                <input
+                                  placeholder="email"
+                                  type="text"
+                                  id="email"
+                                  name="email"
+                                  class="form-control"
+                                />
+                                <label for="email" class="">
+                                  Your email
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                <input
+                                  placeholder="Subject"
+                                  type="text"
+                                  id="subject"
+                                  name="subject"
+                                  class="form-control"
+                                />
+                                <label for="subject" class="">
+                                  Subject
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="md-form">
+                                <textarea
+                                  placeholder="message"
+                                  type="text"
+                                  id="message"
+                                  name="message"
+                                  rows="2"
+                                  class="form-control md-textarea"
+                                ></textarea>
+                                <label for="message">Your message</label>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+
+                        <div class="text-center text-md-left">
+                          <a
+                            class="btn btn-primary"
+                            onclick="document.getElementById('contact-form').submit();"
+                          >
+                            Send
+                          </a>
+                        </div>
+                        <div class="status"></div>
+                      </div>
+
+                      <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
-          </form>
+            <div class="col-sm-4 animate__animated animate__bounce animate__slideInRight animate__delay-2s ">
+              <h2>Help us </h2>
+              <p>
+                <strong>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum.
+                </strong>
+              </p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1"></label>
+                  <input
+                    type="file"
+                    class="form-control-file"
+                    id="exampleFormControlFile1"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 

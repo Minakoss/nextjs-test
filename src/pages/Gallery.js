@@ -101,7 +101,7 @@ function Gallery() {
                 <img src="./75350004.jpg" alt="" />
               </div>
             </div>
-            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInRight animate__delay-1s">
+            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInDown ">
               <div className="boximg3">
                 <h2 className="size">B&W film</h2>
 

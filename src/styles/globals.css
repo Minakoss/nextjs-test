@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 html,
 body {
@@ -97,6 +98,10 @@ body {
 .form {
   font-family: "Courier New", Courier, monospace;
 }
+.form1 {
+  margin-left: 15%;
+}
+
 .button {
   margin: 50px;
 }
@@ -104,48 +109,6 @@ body {
   display: ruby-base;
 }
 
-/*.image2 {
-  background: linear-gradient(
-      45deg,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("/IMG_0028.jpg");
-  opacity: 5;
-  background-size: cover;
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #5d5656;
-  border-style: groove;
-  font-family: "Comic Neue", cursive;
-}
-.image3 {
-  background: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("/The-Best-35mm-Film-in-2022.jpg");
-  opacity: 5;
-  background-size: cover;
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #5d5656;
-  border-style: groove;
-  font-family: "Comic Neue", cursive;
-}
-.direction {
-  display: flex;
-}
-*/
 .img {
   border: 1px solid #111723;
   border-radius: 4px;
@@ -154,7 +117,9 @@ body {
   width: 150px;
   display: flex;
 }
-
+.col-sm-4 {
+  margin-top: 20px;
+}
 footer {
   background-color: #111723;
   color: #ffffff;
@@ -268,20 +233,3 @@ img {
   margin-top: 40px;
   margin-right: 10px;
 }
-/*.image-section {
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("/Analog-1.jpg");
-  background-size: cover;
-  background-position-y: 50%;
-  background-position-x: 50%;
-  background-repeat: no-repeat;
-  min-height: 50px;
-  color: #fff;
-  bottom: 500px;
-  padding: 20px;
-}*/

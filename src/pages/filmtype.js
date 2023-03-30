@@ -90,8 +90,22 @@ function filmtype() {
       <div className="imagebg">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6 col-xl-4 align-self-start animate__animated animate__bounce animate__slideInDown">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown">
               <div className="box1">
+                <h2>35mm Film</h2>
+                The most popular type of film. Also known as 135. These films
+                are the ones that I showed you above. They are small and easy to
+                load. Generally, you will have 24 to 36 photos in a roll.
+                Actually, if you can use your film wisely, you can have 38–39
+                photos from a 36 roll, but let’s not focus on the tricks for
+                now. I love 35mm because you can find them everywhere and find a
+                lab to develop them easily. Also developing them at home is
+                easier. They are much cheaper than the following sizes because
+                you can have more photos in a roll.
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp animate__delay-1s ">
+              <div className="box2">
                 <h2>Super 8 Film</h2>
                 Super 8 mm film is a motion-picture film format released in 1965
                 by Eastman Kodak as an improvement over the older "Double" or
@@ -109,21 +123,7 @@ function filmtype() {
                 Kodak system.
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp ">
-              <div className="box2">
-                <h2>35mm Film</h2>
-                The most popular type of film. Also known as 135. These films
-                are the ones that I showed you above. They are small and easy to
-                load. Generally, you will have 24 to 36 photos in a roll.
-                Actually, if you can use your film wisely, you can have 38–39
-                photos from a 36 roll, but let’s not focus on the tricks for
-                now. I love 35mm because you can find them everywhere and find a
-                lab to develop them easily. Also developing them at home is
-                easier. They are much cheaper than the following sizes because
-                you can have more photos in a roll.
-              </div>
-            </div>
-            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInRight animate__delay-1s">
+            <div class="col-12 col-md-12 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown ">
               <div className="box3">
                 <h2>120mm Film</h2>
                 The second most popular film, also known as the medium format.

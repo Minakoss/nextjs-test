@@ -89,27 +89,21 @@ function super8() {
       <div className="imagebg">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6 col-xl-4 align-self-start animate__animated animate__bounce animate__slideInLeft">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInLeft">
               <div className="box1">
                 <h2>Super 8 Film</h2>
                 Super 8 mm film is a motion-picture film format released in 1965
                 by Eastman Kodak as an improvement over the older "Double" or
-                "Regular" 8 mm home movie format. Super 8 spool with film -
-                detail "Insert film here" The film is nominally 8 mm wide, the
-                same as older formatted 8 mm film, but the dimensions of the
-                rectangular perforations along one edge are smaller, which
-                allows for a greater exposed area. The Super 8 standard also
-                allocates the border opposite the perforations for an oxide
-                stripe upon which sound can be magnetically recorded. Unlike
-                Super 35 which is generally compatible with standard 35 mm
-                equipment, the film stock used for Super 8 is not compatible
-                with standard 8 mm film cameras. There are several varieties of
-                the film system used for shooting, but the final film in each
-                case has the same dimensions. The most popular system by far was
-                the Kodak system.
+                "Regular" 8 mm home movie format. The film is nominally 8 mm
+                wide, the same as older formatted 8 mm film, but the dimensions
+                of the rectangular perforations along one edge are smaller,
+                which allows for a greater exposed area. The Super 8 standard
+                also allocates the border opposite the perforations for an oxide
+                stripe upon which sound can be magnetically recorded. The most
+                popular system by far was the Kodak system.
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown animate__delay-1s">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp animate__delay-1s">
               <div className="box2">
                 <h2>Single-8 system</h2>
                 An alternative format which was released in 1965 as a different
@@ -124,7 +118,7 @@ function super8() {
                 8, the format existed in parallel.
               </div>
             </div>
-            <div class="col-12 col-md-12 col-xl-4 align-self-end animate__animated animate__bounce animate__slideInRight ">
+            <div class="col-12 col-md-12 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInRight ">
               <div className="box3">
                 <h2>Double Super 8</h2>
                 Double Super 8 film is a 16 mm wide film but has Super 8 size
