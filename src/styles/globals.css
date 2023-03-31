@@ -123,12 +123,14 @@ body {
 footer {
   background-color: #111723;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-family: "Courier New", Courier, monospace;
+  display: flex;
 }
 .footer-content {
-  margin-right: 30px;
-  padding: 10px 0px;
+  margin-left: 20px;
+
+  padding: 40px 0px;
 }
 
 .carousel-inner {

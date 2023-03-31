@@ -76,11 +76,11 @@ function super8() {
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Αναζήτηση"
+                placeholder="Search"
                 aria-label="Search"
               />
               <button class="btn btn-outline-success" type="submit">
-                Αναζήτηση
+                Search
               </button>
             </form>
           </div>
@@ -143,11 +143,6 @@ function super8() {
           <h6> &copy;Minakos</h6>
 
           <a href="mailto:hege@example.com">hege@example.com</a>
-          <div className="social">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-          </div>
         </div>
       </footer>
     </>
