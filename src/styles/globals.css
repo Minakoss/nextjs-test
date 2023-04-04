@@ -16,6 +16,7 @@ body {
   margin: 10px;
   transition: 1s;
 }
+
 .navbar a:hover {
   color: #d0cdcd;
   transform: scale(1.1);
@@ -127,42 +128,42 @@ footer {
   font-family: "Courier New", Courier, monospace;
   display: flex;
 }
-.footer-content {
-  margin-left: 20px;
-
-  padding: 40px 0px;
-}
-
-.carousel-inner {
-  width: 100%;
-  height: 80vh;
-  background-size: cover;
-  background-position-y: 50%;
-  padding: 50px;
-  display: flex;
-}
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 20px;
+  width: 39px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
+a {
+  color: inherit;
+}
+.animate-opacity {
+  animation: opac 1.8s;
+}
+.boximg2:hover {
+  opacity: 0.6;
+}
+.boximg1:hover {
+  opacity: 0.6;
+}
+.boximg3:hover {
+  opacity: 0.6;
+}
+
 .fa:hover {
   opacity: 0.7;
 }
-
-.fa-facebook {
-  color: whitesmoke;
+.footercss {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
 }
-
-.fa-twitter {
-  color: whitesmoke;
-}
-.fa-instagram {
-  color: whitesmoke;
+.w3 {
+  text-align: center;
 }
 
 .box {
