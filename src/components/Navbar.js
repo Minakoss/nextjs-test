@@ -3,11 +3,11 @@ import Link from "next/link";
 
 function Navbar({ navbarTitle }) {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <div class="navbar-brand">{navbarTitle}</div>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <div className="navbar-brand">{navbarTitle}</div>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -15,19 +15,19 @@ function Navbar({ navbarTitle }) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link class="nav-link " aria-current="page" href="/">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link " aria-current="page" href="/">
                 Home
               </Link>
             </li>
 
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <Link
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -35,51 +35,51 @@ function Navbar({ navbarTitle }) {
               >
                 Catalogue
               </Link>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <Link class="dropdown-item" href="/filmtype">
+                  <Link className="dropdown-item" href="/filmtype">
                     Film Type
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/filmcolor">
+                  <Link className="dropdown-item" href="/filmcolor">
                     Film color
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/filmBW">
+                  <Link className="dropdown-item" href="/filmBW">
                     Film B&W
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/super8">
+                  <Link className="dropdown-item" href="/super8">
                     Super 8
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/Gallery">
+                  <Link className="dropdown-item" href="/Gallery">
                     Gallery
                   </Link>
                 </li>
                 <li>
-                  <hr class="dropdown-divider" />
+                  <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="/contact">
+                  <Link className="dropdown-item" href="/contact">
                     Contact
                   </Link>
                 </li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form className="d-flex" role="search">
             <input
-              class="form-control me-2"
+              className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button className="btn btn-outline-success" type="submit">
               Search
             </button>
           </form>
