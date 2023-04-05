@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 function filmBW() {
   return (
     <>
@@ -61,25 +62,7 @@ function filmBW() {
           </div>
         </div>
       </div>
-
-      <footer className="footercss">
-        <div className="w3">
-          <a href="#">
-            <i className="fa fa-facebook-official "></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-instagram "></i>
-          </a>
-          <a href="https://twitter.com/home">
-            <i className="fa fa-twitter "></i>
-          </a>
-
-          <div>
-            <h6> &copy;Minakos</h6>
-          </div>
-          <p> Copyright © 2023 All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
