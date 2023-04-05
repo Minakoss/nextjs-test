@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
-function Navbar() {
+function Navbar({ navbarTitle }) {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <div class="navbar-brand">Analog Life</div>
+        <div class="navbar-brand">{navbarTitle}</div>
         <button
           class="navbar-toggler"
           type="button"
@@ -19,13 +20,13 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="/">
+              <Link class="nav-link " aria-current="page" href="/">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li class="nav-item dropdown">
-              <a
+              <Link
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
@@ -33,40 +34,40 @@ function Navbar() {
                 aria-expanded="false"
               >
                 Catalogue
-              </a>
+              </Link>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/filmtype">
+                  <Link class="dropdown-item" href="/filmtype">
                     Film Type
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/filmcolor">
+                  <Link class="dropdown-item" href="/filmcolor">
                     Film color
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/filmBW">
+                  <Link class="dropdown-item" href="/filmBW">
                     Film B&W
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/super8">
+                  <Link class="dropdown-item" href="/super8">
                     Super 8
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/Gallery">
+                  <Link class="dropdown-item" href="/Gallery">
                     Gallery
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/contact">
+                  <Link class="dropdown-item" href="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>

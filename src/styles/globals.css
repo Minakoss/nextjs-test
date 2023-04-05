@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+button {
+  background-color: transparent;
+  border: 0px;
+}
+
 .navbar {
   background-color: #111723 !important;
   color: #ffffff !important;
@@ -143,14 +148,12 @@ a {
 .animate-opacity {
   animation: opac 1.8s;
 }
-.boximg2:hover {
-  opacity: 0.6;
+.minakosAnimatedImage {
+  transition: 1s;
 }
-.boximg1:hover {
+.minakosAnimatedImage:hover {
   opacity: 0.6;
-}
-.boximg3:hover {
-  opacity: 0.6;
+  transform: scale(1.1);
 }
 
 .fa:hover {

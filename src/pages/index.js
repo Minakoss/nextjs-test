@@ -1,19 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import color from "./color";
-import Footer from "../components/Footer";
-
-import Navbar from "@/components/Navbar";
+import MainLayout from "@/components/MainLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-
+    <MainLayout pageTitle="Homepage">
       <div className="imagebghome">
         <h1 className="animate__animated animate__bounce animate__slideInUp">
           Welcome to analogue world
@@ -22,8 +14,6 @@ export default function Home() {
           Analogue Grain Moments
         </p>
       </div>
-
-      <Footer />
-    </>
+    </MainLayout>
   );
 }
