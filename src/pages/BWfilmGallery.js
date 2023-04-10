@@ -6,6 +6,7 @@ function BWfilmGallery() {
   return (
     <>
       <Navbar />
+      <div className="imagebg"></div>
       <Footer />
     </>
   );

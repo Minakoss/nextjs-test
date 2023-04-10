@@ -6,6 +6,7 @@ function colorfilmgallery() {
   return (
     <>
       <Navbar />
+      <div className="imagebg"></div>
       <Footer />
     </>
   );
