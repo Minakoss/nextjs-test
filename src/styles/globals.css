@@ -5,6 +5,10 @@ html,
 body {
   margin: 0;
 }
+button {
+  background-color: transparent;
+  border: 0px;
+}
 
 .navbar {
   background-color: #111723 !important;
@@ -143,16 +147,20 @@ a {
 .animate-opacity {
   animation: opac 1.8s;
 }
-.boximg2:hover {
-  opacity: 0.6;
-}
-.boximg1:hover {
-  opacity: 0.6;
-}
-.boximg3:hover {
-  opacity: 0.6;
-}
 
+.animatedimages {
+  transition: 1s;
+  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
+  border-radius: 50px;
+  background-color: rgba(62, 62, 60, 0.1);
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  padding: 5%;
+}
+.animatedimages:hover {
+  opacity: 0.6;
+  transform: scale(1, 2);
+}
 .fa:hover {
   opacity: 0.7;
 }
@@ -201,30 +209,6 @@ a {
   display: flex;
 }
 
-.boximg1 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
-  font-family: "Times New Roman", Times, serif;
-  display: flex;
-  padding: 5%;
-}
-.boximg2 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
-  font-family: "Times New Roman", Times, serif;
-  display: flex;
-  padding: 5%;
-}
-.boximg3 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
-  border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
-  font-family: "Times New Roman", Times, serif;
-  display: flex;
-  padding: 5%;
-}
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
