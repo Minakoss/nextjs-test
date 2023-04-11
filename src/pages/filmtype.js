@@ -1,7 +1,7 @@
 import React from "react";
 import "animate.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Footer from "@/components/Down";
 
 function filmtype() {
   return (
