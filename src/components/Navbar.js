@@ -33,7 +33,7 @@ function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Catalogue
+                Menu
               </Link>
               <ul class="dropdown-menu">
                 <li>
@@ -62,7 +62,17 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
+                  <Link class="dropdown-item" href="/yourgallery">
+                    Your Gallery
+                  </Link>
+                </li>
+                <li>
                   <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <Link class="dropdown-item" href="/aboutus">
+                    About us
+                  </Link>
                 </li>
                 <li>
                   <Link class="dropdown-item" href="/contact">

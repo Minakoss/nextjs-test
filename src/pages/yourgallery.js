@@ -1,29 +1,22 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-import Footer from "../components/Footer";
-
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import React from "react";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+function yourgallery() {
   return (
     <>
       <Navbar />
-
       <div className="imagebghome">
         <h1 className="animate__animated animate__bounce animate__slideInUp">
-          Welcome to analogue world
+          Your Gallery
         </h1>
         <p className="animate__animated animate__bounce animate__slideInDown animate__delay-1s ">
-          Analogue Grain Moments
+          Under Contraction
         </p>
       </div>
-
       <Footer />
     </>
   );
 }
+
+export default yourgallery;

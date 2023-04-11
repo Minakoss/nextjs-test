@@ -18,7 +18,7 @@ function contact() {
 
                   <p class="text-center w-responsive mx-auto mb-5">
                     Do you have any questions? <br />
-                    Do you have any suggest? <br />
+                    Do you have any Suggestions? <br />
                     Please do not hesitate to contact us directly.
                   </p>
 

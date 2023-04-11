@@ -36,6 +36,7 @@ button {
   background-color: #111723;
   text-align: center;
 }
+
 .dropdown-item {
   width: inherit;
 }
@@ -167,6 +168,11 @@ a {
   opacity: 1.2;
   transition: 1s;
   cursor: zoom-in;
+}
+.gallery:hover {
+  transform: scale(1.2);
+  opacity: 1.2;
+  transition: 1s;
 }
 .img-thumbnail {
   padding: 0.25rem;

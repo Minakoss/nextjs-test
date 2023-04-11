@@ -44,8 +44,8 @@ function super8gallery() {
           <div class="col-lg-3 thumb thumbnail animate__animated animate__slideInRight slow">
             <img class="img-thumbnail" src="../75350034.jpg" alt="#" />
           </div>
+          <button onclick="history.back()">Back</button>
         </div>
-        <button onclick="history.back()">Back</button>
       </div>
       <Footer />
     </>
