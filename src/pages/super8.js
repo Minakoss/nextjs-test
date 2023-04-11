@@ -23,7 +23,7 @@ function super8() {
                 popular system by far was the Kodak system.
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp animate__delay-1s">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp ">
               <div className="box2">
                 <h2>Single-8 system</h2>
                 An alternative format which was released in 1965 as a different

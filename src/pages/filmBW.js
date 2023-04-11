@@ -25,7 +25,7 @@ function filmBW() {
                 </p>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp animate__delay-1s">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInUp ">
               <div className="box2">
                 <h2>hello</h2>
                 <p>

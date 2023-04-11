@@ -9,7 +9,7 @@ function contact() {
       <div className="imagebghome">
         <div class="container text-center">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-12">
               <div className="form">
                 <section class="mb-4">
                   <h2 class="h1-responsive font-weight-bold text-center my-4">
@@ -18,12 +18,13 @@ function contact() {
 
                   <p class="text-center w-responsive mx-auto mb-5">
                     Do you have any questions? <br />
+                    Do you have any suggest? <br />
                     Please do not hesitate to contact us directly.
                   </p>
 
                   <div class="row">
                     <div className="form1">
-                      <div class="col-md-9 mb-md-0 mb-5">
+                      <div class="col-md-8 mb-md-6 mb-3 animate__animated  animate__slideInDown">
                         <div className="box1">
                           <form
                             id="contact-form"
@@ -109,36 +110,6 @@ function contact() {
                     </div>
                   </div>
                 </section>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-xl-4 animate__animated animate__bounce animate__slideInRight animate__delay-1s ">
-              <div className="box1">
-                <h2>Help us </h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleFormControlFile1"></label>
-                    <input
-                      type="file"
-                      class="form-control-file"
-                      id="exampleFormControlFile1"
-                    />
-                  </div>
-                  <button class="btn btn-outline-success" type="submit">
-                    Send
-                  </button>
-                </form>
               </div>
             </div>
           </div>

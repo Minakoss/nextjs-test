@@ -46,7 +46,7 @@ button {
 .imagebg {
   background: linear-gradient(
       45deg,
-      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.3),
@@ -69,7 +69,7 @@ button {
 .imagebghome {
   background: linear-gradient(
       45deg,
-      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.3),
@@ -163,7 +163,7 @@ a {
 }
 .thumbnail img:hover {
   filter: grayscale(50%);
-  transform: scale(1.1);
+  transform: scale(1.2);
   opacity: 1.2;
   transition: 1s;
   cursor: zoom-in;
@@ -235,4 +235,8 @@ img {
 .size {
   margin-top: 40px;
   margin-right: 10px;
+}
+.grid {
+  display: flex;
+  padding: 150px;
 }

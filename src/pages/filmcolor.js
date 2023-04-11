@@ -20,7 +20,7 @@ function filmcolor() {
                 correct in printing.
               </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown animate__delay-1s ">
+            <div class="col-12 col-md-6 col-xl-4 align-self-center animate__animated animate__bounce animate__slideInDown  ">
               <div className="box2">
                 <h2>Negative Film</h2>
                 Negative film produces an image that is the opposite of the
