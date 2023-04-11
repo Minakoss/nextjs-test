@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Down";
+import Footer from "@/components/Footer";
 import React from "react";
 
 function aboutus() {
