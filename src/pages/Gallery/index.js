@@ -9,7 +9,7 @@ function Gallery() {
       <Navbar />
       <div className="imagebg">
         <div class="container">
-          <div class="row ">
+          <div class="row">
             <div class="col-12 col-md-12 col-xl-4  align-self-start animate__animated animate__slideInRight ">
               <Link href="Gallery/super8gallery">
                 <div className="animatedimages gallery">
