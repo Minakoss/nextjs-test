@@ -24,7 +24,11 @@ function Navbar() {
                 Home
               </Link>
             </li>
-
+            <li class="nav-item">
+              <Link class="nav-link " aria-current="page" href="//super8">
+                Super8
+              </Link>
+            </li>
             <li class="nav-item dropdown">
               <Link
                 class="nav-link dropdown-toggle"
@@ -33,7 +37,7 @@ function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu
+                Film
               </Link>
               <ul class="dropdown-menu">
                 <li>
@@ -51,14 +55,22 @@ function Navbar() {
                     Film B&W
                   </Link>
                 </li>
-                <li>
-                  <Link class="dropdown-item" href="/super8">
-                    Super 8
-                  </Link>
-                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <Link
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gallery
+              </Link>
+              <ul class="dropdown-menu">
                 <li>
                   <Link class="dropdown-item" href="/Gallery">
-                    Gallery
+                    Our Gallery
                   </Link>
                 </li>
                 <li>
@@ -66,9 +78,19 @@ function Navbar() {
                     Your Gallery
                   </Link>
                 </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <Link
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </Link>
+              <ul class="dropdown-menu">
                 <li>
                   <Link class="dropdown-item" href="/aboutus">
                     About us

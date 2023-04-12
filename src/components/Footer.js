@@ -14,8 +14,9 @@ function Footer() {
           <a href="https://twitter.com/home">
             <i className="fa fa-twitter "></i>
           </a>
+          
           <h6> &copy; MiNakos</h6>
-          <p> Copyright © 2023 All rights reserved.</p>
+          <p> Copyright © 2023 All rights reserved</p>
         </div>
       </footer>
     </div>
