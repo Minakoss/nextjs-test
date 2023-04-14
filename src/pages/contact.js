@@ -25,7 +25,7 @@ function contact() {
                   <div class="row">
                     <div className="form1">
                       <div class="col-md-8 mb-md-6 mb-3 animate__animated  animate__slideInDown">
-                        <div className="box1">
+                        <div className="boxcontact">
                           <form
                             id="contact-form"
                             name="contact-form"

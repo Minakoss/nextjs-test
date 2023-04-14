@@ -202,12 +202,9 @@ a {
   background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
 }
-.box1 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
+.boxcontact {
   border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
   font-family: "Times New Roman", Times, serif;
-
   padding: 5%;
 }
 .box2 {
