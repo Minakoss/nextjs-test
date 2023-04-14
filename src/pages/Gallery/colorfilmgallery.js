@@ -10,40 +10,88 @@ function colorfilmgallery() {
       <div className="imagebg">
         <div className="grid row">
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <img className="img-thumbnail" src="../47050013.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47050013sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img className="img-thumbnail" src="../47050024.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47050024sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img className="img-thumbnail" src="../47060024.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47060024sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img className="img-thumbnail" src="../47070004.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47070004sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-            <img className="img-thumbnail" src="../47070020.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47070020sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img className="img-thumbnail" src="../47080005.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47080005sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img className="img-thumbnail" src="../47080010.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47080010sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img className="img-thumbnail" src="../47080016.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47080016sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <img className="img-thumbnail" src="../47080021.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/47080021sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img className="img-thumbnail" src="../75350004.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/75350004sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img className="img-thumbnail" src="../75350017.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/75350017sample.jpg"
+              alt="#"
+            />
           </div>
           <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img className="img-thumbnail" src="../75350034.jpg" alt="#" />
+            <img
+              className="img-thumbnail"
+              src="../Colorphotos/75350034sample.jpg"
+              alt="#"
+            />
           </div>
           <Link href="/Gallery">Back</Link>
         </div>

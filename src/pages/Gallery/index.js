@@ -22,7 +22,7 @@ function Gallery() {
               <Link href="/Gallery/colorfilmgallery">
                 <div className="animatedimages gallery">
                   <h2 className="size">Color Film</h2>
-                  <img src="./75350004.jpg" alt="" />
+                  <img src="./Colorphotos/75350004sample.jpg" alt="" />
                 </div>
               </Link>
             </div>
@@ -31,7 +31,7 @@ function Gallery() {
                 <div className="animatedimages gallery">
                   <h2 className="size">B&W film</h2>
 
-                  <img src="./IMG_8303.jpg" alt="" />
+                  <img src="../bwphotos/IMG_8303.jpg" alt="" />
                 </div>
               </Link>
             </div>
