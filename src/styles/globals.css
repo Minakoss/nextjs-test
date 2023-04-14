@@ -205,20 +205,25 @@ a {
 .boxcontact {
   border-radius: 50px;
   font-family: "Times New Roman", Times, serif;
+
+  padding: 5%;
+}
+.box1 {
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+
   padding: 5%;
 }
 .box2 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
   border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
+
   font-family: "Times New Roman", Times, serif;
 
   padding: 10%;
 }
 .box3 {
-  box-shadow: 2px 7px 8px rgba(62, 62, 60, 0.6);
   border-radius: 50px;
-  background-color: rgba(62, 62, 60, 0.1);
+
   font-family: "Times New Roman", Times, serif;
 
   padding: 10%;
