@@ -251,10 +251,13 @@ img {
 }
 .modal-content {
   background-color: #e5e3e5;
-  width: 500px;
+  width: 700px;
   border-radius: 10;
-  position: fixed;
-  top: 150px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: center;
+  top: 48px;
+  right: 20%;
+}
+.imgfull {
+  width: 665px;
+  height: auto;
 }

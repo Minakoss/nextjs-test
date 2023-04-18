@@ -17,9 +17,9 @@ function BWfilmGallery() {
           role="dialog"
         >
           <div class="modal-dialog" role="document">
-            <div class="modal-content ">
+            <div class="modal-content animate__animated  animate__slideInDown ">
               <div class="modal-header">
-                <h5 class="modal-title">London</h5>
+                <h6 class="modal-title">B&W Gallery</h6>
                 <button
                   type="button"
                   class="close"
@@ -31,7 +31,13 @@ function BWfilmGallery() {
                 </button>
               </div>
               <div class="modal-body">
-                <img src="../bwphotos/000011.jpg" alt="#" />
+                <img
+                  className="imgfull"
+                  src="../bwphotos/000011.jpg"
+                  alt="#"
+                  width="800"
+                  height="800"
+                />
               </div>
               <div class="modal-footer"></div>
             </div>
