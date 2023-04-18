@@ -44,95 +44,325 @@ function BWfilmGallery() {
           </div>
         </div>
 
-        <div class=" grid row">
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <button onClick={() => setModalIsOpen(true)}>
-              <img
-                class="img-thumbnail"
-                src="../bwphotos/000011sample.jpg"
-                alt="#"
-              />
-            </button>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000016sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000021sample(1).jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000022sample(1).jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000025sample(1).jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000030sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000113sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000036sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000040sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000051sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000062sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              class="img-thumbnail"
-              src="../bwphotos/000103sample.jpg"
-              alt="#"
-            />
-          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class=" grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      class="img-thumbnail"
+                      src="../bwphotos/000011sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000021sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000022sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000025sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000030sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000113sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000036sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000040sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000051sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000062sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000103sample.jpg"
+                    alt="#"
+                  />
+                </div>
 
-          <Link href="/Gallery">Back</Link>
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      class="img-thumbnail"
+                      src="../bwphotos/000011sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000021sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000022sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000025sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000030sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000113sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000036sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000040sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000051sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000062sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000103sample.jpg"
+                    alt="#"
+                  />
+                </div>
+
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      class="img-thumbnail"
+                      src="../bwphotos/000011sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000021sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000022sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000025sample(1).jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000030sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000113sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000036sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000040sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000051sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000062sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    class="img-thumbnail"
+                    src="../bwphotos/000103sample.jpg"
+                    alt="#"
+                  />
+                </div>
+
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 

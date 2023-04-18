@@ -42,94 +42,323 @@ function colorfilmgallery() {
             </div>
           </div>
         </div>
-        <div className="grid row">
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <button onClick={() => setModalIsOpen(true)}>
-              <img
-                className="img-thumbnail"
-                src="../Colorphotos/47050013sample.jpg"
-                alt="#"
-              />
-            </button>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47050024sample.jpg"
-              alt="#"
-            />
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div className="grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47050013sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47050024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47060024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070020sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080005sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080010sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080021sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350017sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350034sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47050013sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47050024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47060024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070020sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080005sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080010sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080021sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350017sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350034sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47050013sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47050024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47060024sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47070020sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080005sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080010sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080016sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/47080021sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350004sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350017sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <img
+                    className="img-thumbnail"
+                    src="../Colorphotos/75350034sample.jpg"
+                    alt="#"
+                  />
+                </div>
+                <Link href="/Gallery">Back</Link>
+              </div>
+            </div>
           </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47060024sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47070004sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47070020sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47080005sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47080010sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47080016sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/47080021sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/75350004sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/75350017sample.jpg"
-              alt="#"
-            />
-          </div>
-          <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-            <img
-              className="img-thumbnail"
-              src="../Colorphotos/75350034sample.jpg"
-              alt="#"
-            />
-          </div>
-          <Link href="/Gallery">Back</Link>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <Footer />

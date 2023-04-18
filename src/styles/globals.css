@@ -261,3 +261,7 @@ img {
   width: 665px;
   height: auto;
 }
+.carousel-inner {
+  width: 800px;
+  height: auto;
+}
