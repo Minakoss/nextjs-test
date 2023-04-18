@@ -247,7 +247,7 @@ img {
 }
 .grid {
   display: flex;
-  padding: 150px;
+  padding: 100px;
 }
 .modal-content {
   background-color: #e5e3e5;
@@ -262,6 +262,6 @@ img {
   height: auto;
 }
 .carousel-inner {
-  width: 800px;
+  width: 900px;
   height: auto;
 }
