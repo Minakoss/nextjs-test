@@ -96,7 +96,7 @@ function BWfilmGallery() {
                 <div class="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
                   <img
                     class="img-thumbnail"
-                    src="../bwphotos/000022sample(1).jpg"
+                    src="../bwphotos/${}.jpg"
                     alt="#"
                   />
                 </div>
