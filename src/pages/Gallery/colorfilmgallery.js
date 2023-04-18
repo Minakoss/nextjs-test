@@ -18,7 +18,7 @@ function colorfilmgallery() {
           <div class="modal-dialog" role="document">
             <div class="modal-content animate__animated  animate__slideInDown  ">
               <div class="modal-header">
-                <h6 class="modal-title">Color Gallery</h6>
+                <h6 class="modal-title">Color Film Gallery</h6>
                 <button
                   type="button"
                   class="close"
