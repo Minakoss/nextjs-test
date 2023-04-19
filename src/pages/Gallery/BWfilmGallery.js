@@ -157,7 +157,9 @@ function BWfilmGallery() {
                   />
                 </div>
 
-                <Link href="/Gallery">Back</Link>
+                <div className="backbutton">
+                  <Link href="/Gallery">Back</Link>
+                </div>
               </div>
             </div>
             <div class="carousel-item">
@@ -249,7 +251,9 @@ function BWfilmGallery() {
                   />
                 </div>
 
-                <Link href="/Gallery">Back</Link>
+                <div className="backbutton">
+                  <Link href="/Gallery">Back</Link>
+                </div>
               </div>
             </div>
             <div class="carousel-item">
@@ -341,7 +345,9 @@ function BWfilmGallery() {
                   />
                 </div>
 
-                <Link href="/Gallery">Back</Link>
+                <div className="backbutton">
+                  <Link href="/Gallery">Back</Link>
+                </div>
               </div>
             </div>
           </div>
