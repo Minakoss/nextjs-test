@@ -79,81 +79,218 @@ function colorfilmgallery() {
                   </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47050024sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47050024sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47060024sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47060024sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070004sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47070004sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070020sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47070020sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080005sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080005sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080010sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080010sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080016sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080016sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080021sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080021sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350004sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350004sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350017sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350017sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350034sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350034sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="backbutton">
+                  <Link href="/Gallery">Back</Link>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="grid row">
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/98840002sampe.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/98840010sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/98840017sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/98840034sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/98840035sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080005sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080010sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080016sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080021sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350004sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350017sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350034sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="backbutton">
                   <Link href="/Gallery">Back</Link>
@@ -172,174 +309,103 @@ function colorfilmgallery() {
                   </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47050024sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47060024sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070004sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070020sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080005sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080010sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080016sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080021sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350004sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350017sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350034sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="backbutton">
-                  <Link href="/Gallery">Back</Link>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div className="grid row">
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
                   <button onClick={() => setModalIsOpen(true)}>
                     <img
                       className="img-thumbnail"
-                      src="../Colorphotos/47050013sample.jpg"
+                      src="../Colorphotos/47050024sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47060024sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47070004sample.jpg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47070020sample.jpg"
                       alt="#"
                     />
                   </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47050024sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080005sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47060024sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080010sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070004sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47070020sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080005sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080010sample.jpg"
-                    alt="#"
-                  />
-                </div>
-                <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080016sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080016sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/47080021sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/47080021sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInLeft slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350004sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350004sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight ">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350017sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350017sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="col-12 col-md-4 col-xl-3 thumb thumbnail animate__animated animate__slideInRight slow">
-                  <img
-                    className="img-thumbnail"
-                    src="../Colorphotos/75350034sample.jpg"
-                    alt="#"
-                  />
+                  <button onClick={() => setModalIsOpen(true)}>
+                    <img
+                      className="img-thumbnail"
+                      src="../Colorphotos/75350034sample.jpg"
+                      alt="#"
+                    />
+                  </button>
                 </div>
                 <div className="backbutton">
                   <Link href="/Gallery">Back</Link>
